@@ -1,17 +1,27 @@
-/* Dobra Strana · izvorni tokeni; kopija za web je dist/tokens.css */
+/* Dobra Strana · vizualni tokeni */
 :root {
-  --color-paper: oklch(0.95552 0.00985 87.47);
-  --color-paper-2: oklch(0.92176 0.01248 91.52);
-  --color-ink: oklch(0.25829 0.00912 159.40);
-  --color-ink-soft: oklch(0.50042 0.01121 140.50);
-  --color-ink-on-dark: oklch(0.83615 0.01436 124.59);
-  --color-accent: oklch(0.54535 0.16589 34.05);
-  --color-accent-light: oklch(0.70385 0.16022 38.63);
-  --color-rule: oklch(0.82141 0.01379 102.06);
-  --color-rule-dark: oklch(0.45792 0.01626 145.30);
-  --color-white: oklch(1.00000 0.00000 89.88);
-  --font-display: "Bricolage Grotesque", Arial, sans-serif;
-  --font-body: "IBM Plex Sans", Arial, sans-serif;
+  --color-paper: #F4F0E8;
+  --color-paper-2: #EAE5DA;
+  --color-ink: #1F2421;
+  --color-ink-2: #2A302C;
+  --color-ink-soft: #5E635C;
+  --color-ink-on-dark: #C9CCC2;
+  --color-accent: #B8432A;
+  --color-accent-hover: #A33A24;
+  --color-accent-light: #EE7A52;
+  --color-brick-tint: #F3DED3;
+  --color-rule: #D6D1C4;
+  --color-rule-dark: #3D4540;
+  --color-hairline-dark: rgb(244 240 232 / .1);
+  --shadow-soft: 0 1px 2px rgb(31 36 33 / .06), 0 12px 32px -12px rgb(31 36 33 / .18);
+  --shadow-lift: 0 2px 4px rgb(31 36 33 / .08), 0 30px 60px -20px rgb(31 36 33 / .35);
+  --shadow-dark: 0 40px 80px -30px rgb(10 12 11 / .7);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Geist", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --radius-sm: 4px; --radius-md: 10px; --radius-lg: 18px;
+  --z-header: 40; --z-grain: 50; --z-skip: 60;
   --space-xxs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px;
   --space-lg: 20px; --space-xl: 24px; --space-2xl: 32px; --space-3xl: 40px;
   --space-4xl: 48px; --space-5xl: 64px; --space-6xl: 80px;
