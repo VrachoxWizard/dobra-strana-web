@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="hr"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,50;1,9..144,300..700,50&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../tokens.css">
+<title>Dobra Strana · slika za dijeljenje</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;overflow:hidden;background:var(--color-ink);color:var(--color-paper);font-family:var(--font-body);-webkit-font-smoothing:antialiased;position:relative}
+.wrap{position:absolute;top:64px;bottom:64px;left:72px;width:600px;display:flex;flex-direction:column;justify-content:space-between}
+img.logo{width:250px}
+h1{font-family:var(--font-display);font-weight:350;font-size:66px;line-height:1.02;letter-spacing:-.025em}
+h1 em{color:var(--color-accent-light)}
+.meta{font-family:var(--font-mono);font-size:16px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-ink-on-dark)}
+.meta b{color:var(--color-accent-light);font-weight:500}
+.shot{position:absolute;right:-90px;top:130px;width:500px;border-radius:10px;overflow:hidden;box-shadow:var(--shadow-dark),0 0 0 1px var(--color-hairline-dark)}
+.shot img{width:100%;display:block}
+.phone{position:absolute;left:720px;top:300px;width:124px;border-radius:10px;overflow:hidden;box-shadow:var(--shadow-dark),0 0 0 1px var(--color-hairline-dark)}
+.phone img{width:100%;display:block}
+.c{position:absolute;width:56px;height:56px}
+.tl{left:690px;top:100px;border-top:6px solid var(--color-paper);border-left:6px solid var(--color-paper)}
+.br{right:40px;bottom:40px;border-bottom:6px solid var(--color-accent-light);border-right:6px solid var(--color-accent-light)}
+</style></head><body>
+<div class="shot"><img src="../dist/media/atasol.webp" alt=""></div>
+<div class="phone"><img src="../dist/media/dogan-septem-mobile.webp" alt=""></div>
+<span class="c tl"></span><span class="c br"></span>
+<div class="wrap"><img class="logo" src="logo-dark.svg" alt="Dobra Strana">
+<h1>Web stranica koja pokazuje <em>dobru stranu</em> vašeg posla.</h1>
+<p class="meta">Identitet · tekst · web · <b>500 € jednokratno</b></p></div>
+</body></html>

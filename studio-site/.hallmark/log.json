@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-09-28",
+    "macrostructure": "Split Studio",
+    "theme": "custom",
+    "theme_axes": "warm paper / bold sans / orange",
+    "enrichment": "real project screenshots",
+    "brief": "Dobra Strana brand and proof-led studio website redesign"
+  },
+  {
+    "date": "2026-09-29",
+    "macrostructure": "Portfolio-led offer",
+    "theme": "custom",
+    "theme_axes": "warm paper / Fraunces + Geist / brick",
+    "enrichment": "real project screenshots (desktop + mobile)",
+    "brief": "Dobra Strana redesign after hallmark audit: N1a nav, merged offer section, no eyebrows, no redrawn chrome, italic kept only in h1, logo and contact heading"
+  }
+]
