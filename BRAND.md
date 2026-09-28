@@ -1,94 +1,76 @@
 # Dobra Strana — identitet studija
 
-## Ideja
+## Položaj
 
-**Dobar posao zaslužuje dobru stranu.**
+**Ime:** Dobra Strana. U svim materijalima piše se s razmakom, bez točke. Ime povezuje dobru stranu posla koju klijent želi pokazati i web stranicu na kojoj to može učiniti.
 
-Ime ima dva značenja: bolja strana poslovanja koju klijent želi pokazati i web stranica na kojoj je ta priča dostupna svima. Studio pomaže malim tvrtkama da izgled, riječi i web djeluju kao jedna cjelina.
+**Glavna poruka:** Identitet i web za posao koji već dobro radite.
 
-**Za koga:** obrti, zdravlje, uslužne djelatnosti i ugostiteljstvo u Hrvatskoj. Studio je u Zagrebu, radi na daljinu u cijeloj zemlji.
+**Kratki opis:** Mali studio iz Zagreba koji za obrte i male tvrtke u Hrvatskoj oblikuje identitet, piše tekst prema njihovim podacima te dizajnira i izrađuje jednostavnu web stranicu.
 
-**Obećanje:** vodimo klijenta od prvog razgovora do objavljene stranice, jasno i bez tehničkog žargona.
+**Publika:** obrti, zdravlje, usluge i ugostiteljstvo; mikro i mala poduzeća. Ne navodimo imena osnivača u marketinškom sadržaju.
 
-**Osobnost:** smirena, izravna, pažljiva, sposobna. Ne glumi veliku agenciju.
+**Ton:** izravan, topao i precizan. Govorimo „mi” i „vi”. Objašnjavamo isporuku običnim riječima. Ne koristimo žargon gdje ne pomaže odluci. Ne obećavamo rezultate prodaje, pozicije na tražilicama, izjave klijenata ili rok koji nismo potvrdili.
 
-## Jezik
+„Izgled. Riječi. Stranica.” pomoćni je vizualni ritam na brand boardu, ne drugi slogan.
 
-- Govorimo „mi” i „vi”. Kratke rečenice. Konkretne koristi.
-- Umjesto „branding, UI/UX i razvoj” kažemo „prepoznatljiv izgled i jasna web stranica”. Tehničke pojmove koristimo kad klijentu trebaju za odluku.
-- Ne obećavamo broj novih klijenata, pozicije na Googleu ni brzinu izrade prije dogovora o opsegu.
-- Ne izmišljamo reference, ocjene, izjave ni godine iskustva.
+## Logotip
 
-**Glavna rečenica:** Dobar posao zaslužuje dobru stranu.
+Znak čine dva suprotna kuta. Prostor između njih predstavlja drukčiji pogled na isti posao. Ne prikazuje presavijene listove ili generički simbol preglednika. Natpis „Dobra Strana” vektoriziran je iz Bricolage Grotesque 800 i uvijek stoji s razmakom između riječi.
 
-**Kratki opis:** Stvaramo identitet i web stranice za male tvrtke koje žele ostaviti dobar prvi dojam.
-
-**Poziv na razgovor:** Ispričajte nam što radite. Predložit ćemo jasan sljedeći korak.
-
-## Znak
-
-Dva pomaknuta lista tvore otvorenu stranicu. Tamni list predstavlja posao kakav već postoji; plavi je strana koju tek otkrivamo ljudima. Znak radi bez riječi kao ikona, pečat i mali detalj na webu.
-
-- Primarni znak: `assets/mark.svg`
-- Primarna verzija: tamni + plavi na svijetloj podlozi.
-- Na tamnoj podlozi tamni list zamijeniti bijelim; plavi ostaje.
-- Ostaviti slobodan prostor barem širine jednog plavog lista sa svake strane.
-- Ne rotirati, ne dodavati sjene ili prijelaze boja.
-
-## Boje
-
-| Uloga | Naziv | HEX |
+| Primjena | Zaključani logotip | Samostalan znak |
 |---|---|---|
-| Glavna podloga | Kreda | `#F5F4EF` |
-| Tekst i tamna podloga | Tinta | `#1C2D3A` |
-| Pozivi na akciju i isticanje | Plava | `#335EEA` |
-| Mirna sekundarna podloga | Svijetloplava | `#E6EAFE` |
+| Svijetla podloga | `assets/logo.svg` | `assets/mark.svg` |
+| Tamna podloga | `assets/logo-dark.svg` | `assets/mark-dark.svg` |
+| Jedna boja | `assets/logo-mono.svg` | `assets/mark-mono.svg` |
 
-Plava označava radnju i ključnu riječ. Velike površine ostaju u Kredi ili Tinti. Ne dodavati novu akcentnu boju bez razloga.
-
-## Tipografija
-
-- Naslovi i logotip: **Manrope**, 700–800, čvrst razmak između slova.
-- Tekst: **DM Sans**, 400–700.
-- Mrežni fallback: Arial, sans-serif.
-- Veliki naslov kratak; tijelo teksta čitljivo i prozračno.
+Na webu su kopije logotipa u `dist/`, a favicon je `dist/favicon.svg`. Izvorni SVG-ovi imaju tekst pretvoren u putanje i ne ovise o instaliranom fontu. Ostaviti oko znaka slobodan prostor barem širine jednog njegovog kraka. Logotip ne rastezati, ne rotirati i ne dodavati sjene. Znak provjeriti u veličini favicona, logotip na mobitelu.
 
 ## Vizualni sustav
 
-Pravokutne plohe, pomaknut sloj i fina linija nose ideju „dvije strane”. Široki rubovi i raspored s lijeva na desno stvaraju mir. Kutovi su oštri. Fotografije koristimo samo ako prikazuju stvarne ljude, prostor ili posao klijenta; generičke poslovne fotografije izbjegavamo.
+| Uloga | Naziv | HEX |
+|---|---|---|
+| Glavna podloga | Papir | `#F3F0E9` |
+| Sekundarna podloga | Topli kamen | `#E8E5DC` |
+| Tekst i tamna podloga | Tinta | `#202522` |
+| Naglasak na svijetlom | Cigla | `#BD4024` |
+| Naglasak na tamnom | Topla narančasta | `#F1774F` |
+| Sekundarni tekst na svijetlom | Siva tinta | `#60655F` |
+| Sekundarni tekst na tamnom | Svijetla tinta | `#C7CBC1` |
 
-## Početna ponuda
+Naslovi: **Bricolage Grotesque**, 700–800, uski razmak. Tekst: **IBM Plex Sans**, 400–700. Zamjenski font: Arial, sans-serif. Boje, fontovi i razmaci na stranici definirani su u `tokens.css` i kopirani u `dist/tokens.css`; `dist/style.css` ih koristi po imenu. Novi detalji prvo dobivaju imenovani token.
 
-**Od 500 € jednokratno**, za dogovoreni opseg: razgovor i smjer, logo, osnovne verzije znaka, boje i tipografija, kratke upute, tekstualna struktura i dizajn jedne web stranice, responzivna izrada, osnovne postavke za tražilice i objava.
+Sustav koristi velike tipografske tvrdnje, ravne rezove, jasne rubove i stvarne slike radova. Ne koristi lažne prikaze uređaja, generičke poslovne fotografije, gradijente ni ukrasne strelice koje izgledaju kao poveznice. Brand board: `assets/brand-board.png` (izvor: `assets/brand-board.html`).
 
-Domena nije uključena. Održavanje se dogovara zasebno. Trošak komercijalnog Vercel hostinga treba odlučiti i navesti u ponudi prije početka rada. Konačna cijena i rok idu u pisanu ponudu.
+## Ponuda i jezik stranice
 
-## Kontakt
+**500 € ukupno** za jedan definirani početni paket:
 
-Privremeni Gmail prijedlog: **dobrastrana.studio@gmail.com** — dostupnost nije provjerena; adresu treba otvoriti prije nego što se objavi na stranici ili u potpisu. Kad kupite domenu, koristite adresu na vlastitoj domeni (npr. `bok@dobrastrana.hr`), ako je domena dostupna.
+- razgovor i jedan smjer identiteta;
+- logo i osnovne verzije, boje i tipografija;
+- tekst prema točnim podacima koje klijent dostavi;
+- dizajn i izrada jedne responzivne web stranice;
+- osnovne postavke za tražilice i objava;
+- dva kruga dorada.
 
-Trenutačna web stranica upućuje posjetitelja da odgovori na e-mail iz kojeg je došao, što odgovara početnoj uporabi u ciljanim e-mail porukama.
+Klijent dostavlja poslovne činjenice i vlastite fotografije. Dodatne stranice ili zahtjevi idu u zasebnu ponudu. Domena i održavanje nisu uključeni. Trošak hostinga i rok potvrđuju se pisanom ponudom prije početka. Porezni tretman treba potvrditi nakon osnivanja j.d.o.o. tako da javnih 500 € ostane ukupan iznos za kupca.
+
+Glavni poziv: **Pogledajte radove.** Završni poziv po otvaranju adrese e-pošte: **Recite nam čime se bavite.** Kontakt tada mora biti izravan `mailto:`; odgovor na pristigli email ostaje dodatni jednostavan put.
 
 ## Dokaz rada
 
-Uz dopuštenje klijenata prikazujemo tri stvarna projekta za koje je studio napravio identitet, dizajn i web:
+Uz korisnikovu potvrdu da su identitet, dizajn i web njihovi te da imaju dopuštenje za prikaz, prikazani su stvarni radovi:
 
-- [Atasol](https://www.atasol.hr/) — somatska psihoterapija, Zagreb.
-- [Produkt Auto](https://produktauto.com/) — prodaja vozila, Oroslavje.
-- [Dogan Septem Interijeri](https://www.doganseptem-interijeri.hr/) — adaptacije i uređenje.
+- [Atasol](https://www.atasol.hr/) — somatska psihoterapija u Zagrebu;
+- [Produkt Auto](https://produktauto.com/) — prodaja vozila u Oroslavju;
+- [Dogan Septem Interijeri](https://www.doganseptem-interijeri.hr/) — adaptacije i uređenje interijera.
 
-Na stranici su stilizirani sažeci projekata s poveznicama na stvarne web stranice. Ne navodimo rezultate prodaje ni izjave koje klijenti nisu dali.
+Snimke u `dist/media/` zabilježene su s javnih početnih stranica. Opisi navode djelatnost i isporučeni posao. Nema izmišljenih rezultata ni izjava.
 
-## Što potvrditi prije javnog predstavljanja
+## Prije javne objave
 
-1. Provjeriti dostupnost imena i žiga te željene domene.
-2. Otvoriti stvarnu adresu e-pošte i unijeti je na web.
-3. Ako postoje, dopuniti tri prikazana projekta stvarnim fotografijama ili snimkama zaslona i kratkim opisom problema i rješenja.
-4. Odlučiti tko snosi komercijalni hosting i to izričito navesti u ponudi.
-
-## Istraživačka osnova
-
-- [Vizura Studio](https://www.vizurastudio.hr/hr/) pokazuje jasan naglasak na dosljedan vizualni identitet.
-- [Web Studio Šime](https://webstudiosime.hr/paketi/) i [MFB Solutions](https://www.mfbsolutions.hr/usluge/izrada-web-stranica) pokazuju da hrvatsko tržište uspoređuje mali web prema konkretnom opsegu i početnoj cijeni.
-- [Small Fox Studio](https://smallfoxstudio.co.uk/) i [Thimble Studio](https://thimble.studio/) pokazuju vrijednost jednostavnog procesa i fiksno definiranih paketa za male tvrtke.
-- [Vercelova pravila komercijalne uporabe](https://vercel.com/docs/limits/fair-use-guidelines) razlog su za otvorenu stavku troška hostinga.
+1. Potvrditi naziv i slične žigove kroz [baze koje navodi DZIV](https://www.dziv.hr/hr/intelektualno-vlasnistvo/zigovi/podnosenje-prijave/pretrazite/). Preliminarna internetska pretraga nije pravna provjera.
+2. Provjeriti i kupiti željenu `.hr` domenu putem [CARNET-ova registra](https://www.domene.hr/portal/home). WHOIS upit od 28. rujna 2026. za `dobrastrana.hr` nije vratio upis; to nije rezervacija ni jamstvo buduće dostupnosti.
+3. Dostaviti stvarnu adresu e-pošte. Ugraditi je kao klikabilan kontakt bez probnih ili izmišljenih adresa.
+4. Dovršiti osnivanje j.d.o.o., potvrditi porezni tretman cijene i podatke pružatelja usluge.
+5. Nakon provjere privatnog pregleda povezati kupljenu domenu, objaviti stranicu javno i provjeriti je bez prijave.
