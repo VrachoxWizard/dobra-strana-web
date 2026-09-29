@@ -8,9 +8,11 @@
 
 **Kratki opis:** Studio iz Zagreba koji za obrte i male tvrtke u Hrvatskoj oblikuje identitet, piše tekst prema njihovim podacima te dizajnira i izrađuje jednostavnu web stranicu.
 
-**Publika:** obrti, zdravlje, usluge i ugostiteljstvo; mikro i mala poduzeća. Ne navodimo imena osnivača u marketinškom sadržaju.
+**Publika:** prioritet su zdravlje i terapije te uslužne djelatnosti i savjetovanje; zatim obrti i ugostiteljstvo; mikro i mala poduzeća. Ne navodimo imena osnivača u marketinškom sadržaju.
 
-**Ton:** izravan, topao i precizan. Govorimo „mi” i „vi”. Kratke rečenice, obične riječi, bez žargona. Naslovi u rečeničnom obliku. Ne obećavamo rezultate prodaje, pozicije na tražilicama, izjave klijenata ni rok koji nismo potvrdili.
+**Promet:** većina posjetitelja dolazi iz hladnih poruka e-poštom i ne zna nas. Stranica mora u pola minute reći što radimo, za koga, koliko košta i zašto je sigurno javiti se.
+
+**Ton:** izravan, topao i precizan. Govorimo „mi” i „vi”. Kratke rečenice, obične riječi, bez žargona i bez uskličnika. Naslovi u rečeničnom obliku. Ne obećavamo rezultate prodaje, pozicije na tražilicama ni rok koji nismo potvrdili. Izjave klijenata objavljujemo samo stvarne i uz njihovo dopuštenje, s imenom i inicijalom prezimena; smijemo dotjerati gramatiku, ne i smisao.
 
 **Interpunkcija:** crtice (—, –) ne koristimo kao interpunkciju. Umjesto njih točka, zarez ili razdjelnik „·”.
 
@@ -62,25 +64,29 @@ Boje, fontovi i razmaci definirani su u `tokens.css` i kopirani u `dist/tokens.c
 - razgovor i jedan smjer identiteta;
 - logo i osnovne verzije, boje i tipografija;
 - tekst prema točnim podacima koje klijent dostavi;
-- dizajn i izrada jedne responzivne web stranice;
+- dizajn i izrada pregledne responzivne web stranice; opseg se dogovara na prvom razgovoru, osnova je jedna stranica sa svim bitnim;
 - osnovne postavke za tražilice i objava;
 - dva kruga dorada.
 
-**Uvjeti koje smijemo navoditi:** plaćanje u dva dijela (50 % na početku, 50 % nakon odobrenja, prije objave); domena, datoteke logotipa i pristup stranici glase na klijenta; bez mjesečne pretplate, održavanje samo po dogovoru. Rok izrade ne navodimo javno, potvrđuje se u pisanoj ponudi.
+**Uvjeti koje smijemo navoditi:** 500 € je konačan iznos za kupca. Plaćanje u dva dijela: 250 € kad klijent odobri prijedlog izgleda i teksta, 250 € kad odobri gotovu stranicu, prije objave. Razgovor i prijedlog ne naplaćujemo ako prijedlog nije odobren. Domena, datoteke logotipa i pristup stranici glase na klijenta; bez mjesečne pretplate, održavanje samo po dogovoru. Na upit odgovaramo isti ili idući radni dan. Rok izrade ne navodimo javno, potvrđuje se u pisanoj ponudi.
 
-Klijent dostavlja poslovne činjenice i vlastite fotografije. Dodatne stranice ili zahtjevi idu u zasebnu ponudu. Domena i održavanje nisu uključeni u cijenu. Trošak hostinga potvrđuje se pisanom ponudom prije početka. Porezni tretman treba potvrditi nakon osnivanja j.d.o.o. tako da javnih 500 € ostane ukupan iznos za kupca.
+Klijent dostavlja poslovne činjenice i, ako ih ima, vlastite fotografije. Bez fotografija za početak biramo besplatne fotografije iz foto-baza, a za vlastite preporučujemo fotografa. Dodatne stranice ili zahtjevi idu u zasebnu ponudu. Domenu i hosting klijent plaća izravno pružatelju, na svoje ime; mi pomažemo odabrati najpovoljniju opciju i ne navodimo javno iznose. Nakon osnivanja j.d.o.o. potvrditi porezni tretman tako da javnih 500 € ostane ukupan iznos za kupca.
 
-Navigacija ima samo logo i gumb **Javite se**. Glavni poziv: **Pogledajte radove.** Završni poziv: **Recite nam čime se bavite**, s gumbom za e-poštu. Odgovor na pristigli mail ostaje dodatni jednostavan put.
+**Zašto 500 €:** paket je jasno ograničen i proces je uvijek isti. Tako to i objašnjavamo, bez popusta i hitnosti.
+
+**Pozivi:** navigacija ima samo logo i gumb **Javite se**. Glavni poziv u heroju: **Pogledajte radove.** Gumb u cjeniku: **Zatražite prijedlog.** Završni poziv: **Recite nam čime se bavite**, s gumbom za e-poštu. Odgovor na pristigli mail ostaje dodatni jednostavan put.
+
+**Naslovi i opis za tražilice:** title „Izrada web stranice i logotipa · Dobra Strana, Zagreb”; naslov sekcije paketa „Jedna cijena. Bez iznenađenja.” (ne „Sve uključeno”, jer domena, hosting i održavanje idu zasebno).
 
 ## Dokaz rada
 
 Uz potvrdu da su identitet, dizajn i web naši te da imamo dopuštenje za prikaz:
 
-- [Atasol](https://www.atasol.hr/): somatska psihoterapija u Zagrebu;
-- [Produkt Auto](https://produktauto.com/): prodaja vozila u Oroslavju;
-- [Dogan Septem Interijeri](https://www.doganseptem-interijeri.hr/): adaptacije i uređenje interijera.
+- [Atasol](https://www.atasol.hr/): somatska psihoterapija u Zagrebu; izjava: Maja V.;
+- [Produkt Auto](https://produktauto.com/): prodaja vozila u Oroslavju; izjava: Hasan L.;
+- [Dogan Septem Interijeri](https://www.doganseptem-interijeri.hr/): adaptacije i uređenje interijera u Sesvetama; izjava: Mario J.
 
-Snimke u `dist/media/` (računalo i mobitel) zabilježene su s javnih početnih stranica. Opisi navode djelatnost i ono što se vidi na stranici. Nema izmišljenih rezultata ni izjava.
+Snimke u `dist/media/` (računalo i mobitel) zabilježene su s javnih početnih stranica. Opisi navode djelatnost i ono što se vidi na stranici. Izjave su stvarne, objavljene uz dopuštenje klijenata, jezično dotjerane bez promjene smisla. Nema izmišljenih rezultata ni izjava.
 
 ## Prije javne objave
 
