@@ -93,6 +93,6 @@ Snimke u `dist/media/` (računalo i mobitel) zabilježene su s javnih početnih 
 1. Potvrditi naziv i slične žigove kroz [baze koje navodi DZIV](https://www.dziv.hr/hr/intelektualno-vlasnistvo/zigovi/podnosenje-prijave/pretrazite/). Preliminarna internetska pretraga nije pravna provjera.
 2. Provjeriti i kupiti željenu `.hr` domenu putem [CARNET-ova registra](https://www.domene.hr/portal/home).
 3. **Zamijeniti `[email]`** u sekciji Kontakt u `dist/index.html` (poveznica `mailto:` i vidljiva adresa) stvarnom poslovnom adresom. Isto u `outreach/potpis.html`, uz `[domena]`.
-4. Nakon kupnje domene postaviti apsolutnu adresu u `og:image` (npr. `https://dobrastrana.hr/og-image.png`) kako bi se slika prikazala u pregledu poveznice.
+4. Nakon kupnje domene zamijeniti probnu adresu u `og:image` (`https://dobra-strana-web-dist.vercel.app/og-image.png`) pravom domenom (npr. `https://dobrastrana.hr/og-image.png`) i **maknuti `<meta name="robots" content="noindex">`** iz `dist/index.html`, inače Google neće indeksirati stranicu.
 5. Dovršiti osnivanje j.d.o.o., potvrditi porezni tretman cijene i podatke pružatelja usluge.
 6. Povezati domenu, objaviti stranicu i provjeriti je bez prijave.
